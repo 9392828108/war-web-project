@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class BirthdayMessage {
+    public static void main(String[] args) {
+        // Scanner to get input from the user (you can enter your mom's name here)
+        Scanner scanner = new Scanner(System.in);
+        
+        // Input for mum's name
+        System.out.print("Enter your Mum's name: ");
+        String mumName = scanner.nextLine();
+        
+        // Output birthday message
+        System.out.println("\nHappy Birthday, " + mumName + "!");
+        System.out.println("Wishing you a day filled with love, joy, and happiness.");
+        System.out.println("May all your dreams come true and may this year be your best one yet!");
+        System.out.println("You are the best Mum ever! Have a fantastic day!");
+        
+        scanner.close();
+    }
+}

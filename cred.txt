@@ -1,11 +1,4 @@
-apiVersion: batch/v1
-kind: job
-metadata: 
-  name: helloworld
-spec:
-  template: 
-spec:
-  containers:
-    name: busybox
-    image: busybox
-    restartPolicy: Never
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+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--git token
+http://13.50.99.118:9000/dashboard?id=Project-sonarcube url
